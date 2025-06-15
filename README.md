@@ -1,12 +1,36 @@
-# C# Rock paper scissors tutorial in visual studio with windows form
-In this tutorial we are making a simple rock paper scissors game which plays against the CPU. You can make 3 choices using buttons and then CPU will make the same choices in the background.   We are using click events, timer events and custom functions to make this game work. You can follow along as we make this game step by step and you can also use your own images or theories to make the game.   In the background of the programming we are using If statements, Switch Statements, Boolean, string, integers and Arrays to conduct the logic of the game. Every part of the code is explained in this video and if you have any questions about this at all leave it in the comments here or on the MOOICT website. Either way I will check it and get back to you. 
+# Kamień, Papier, Nożyce - Gra Windows Forms
+
+![image](https://github.com/user-attachments/assets/2bbcb38f-457c-40b5-bae2-da009ff384fb)
 
 
-Video Tutorial -
+## 📝 Opis projektu
+Prosta gra komputerowa implementująca klasyczne zasady "Kamień, Papier, Nożyce", napisana w języku C# z wykorzystaniem Windows Forms. Aplikacja oferuje przyjazny interfejs graficzny i podstawowe funkcje logiki gry.
 
-[![](http://img.youtube.com/vi/9FSW8qU60x8/0.jpg)](http://www.youtube.com/watch?v=9FSW8qU60x8 "MOO ICT rock paper scissors game in windows form and c sharp")
+  ## 🌟 Funkcje
+- **Interfejs graficzny** z przyciskami wyboru
+- **System punktacji** śledzący wyniki gracza i komputera
+- **Automatyczne określanie zwycięzcy** według zasad:
+  - Papier pokonuje kamień
+  - Kamień pokonuje nożyce
+  - Nożyce pokonują papier
+- **Statystyki rozgrywek** zapisywane między sesjami
+- **Możliwość restartu** gry w dowolnym momencie
+- **Prosta animacja** przedstawiająca wyniki rundy
+  
+  ### 🔹 Jak grać?
+1. Wybierz swój ruch klikając jeden z przycisków:
+   - 🪨 **Kamień**
+   - 📄 **Papier**
+   - ✂️ **Nożyce**
+2. Komputer dokona losowego wyboru
+3. Wynik rundy zostanie wyświetlony na ekranie
+4. Punkty zostaną automatycznie dodane do statystyk
+5. Kliknij **"Restart"** aby zresetować wyniki
+   
+  ### 🔹 Interpretacja wyników
+- **Wygrana**: +1 punkt dla gracza
+- **Przegrana**: +1 punkt dla komputera
+- **Remis**: Brak punktów
 
-
-
-Written Tutorial - 
-https://www.mooict.com/c-tutorial-create-a-rock-paper-and-scissors-game/
+Projekt został stworzony przez Jakuba Woźnowskiego.
+Jeśli masz pytania lub sugestie - dawaj znać! 🚀
